@@ -1,0 +1,280 @@
+@font-face {
+  font-family: 'filson';
+  src: url('https://res.cloudinary.com/dnypb9pck/raw/upload/v1538772212/fonts/filsonproheavy-webfont.woff2')
+      format('woff2'),
+    url('https://res.cloudinary.com/dnypb9pck/raw/upload/v1538772211/fonts/filsonproheavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'filson-normal';
+  src: url('https://res.cloudinary.com/dnypb9pck/raw/upload/v1538772217/fonts/filsonprobook-webfont.woff2')
+      format('woff2'),
+    url('https://res.cloudinary.com/dnypb9pck/raw/upload/v1538772214/fonts/filsonprobook-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: #fff;
+}
+
+.small-title {
+  font-family: 'filson';
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.big-title {
+  font-family: 'filson';
+  font-size: 74px;
+  line-height: 70px;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+em {
+  font-family: georgia;
+  font-size: 60px;
+}
+
+.h-color {
+  color: #8100f9;
+  font-weight: 300;
+}
+
+.legend-pg {
+  font-family: 'filson-normal';
+  font-size: 14.3px;
+  line-height: 25px;
+  margin-top: 25px;
+  max-width: 400px;
+  color: #000;
+}
+
+#legend {
+  width: 100%;
+  color: #fff;
+}
+
+.legend-navigation {
+  padding-top: 85px;
+  padding-right: 85px;
+  padding-left: 85px;
+  border-radius: 90px;
+}
+
+.btn-nav {
+  font-family: 'filson-normal';
+  left: 20px;
+  margin-bottom: 110px;
+}
+
+.nav-one {
+  color: #fff;
+  width: 75px;
+  height: 75px;
+  left: 20px;
+  background-color: #8100f9 !important;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.15);
+  font-size: 15px;
+}
+
+.nav-two {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  left: 30px;
+  background-color: #cfced0 !important;
+  font-size: 13px;
+}
+
+.nav-three {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  left: 30px;
+  font-size: 13px;
+  background-color: #cfced0 !important;
+}
+
+.legend-content {
+  padding-top: 70px;
+  padding-right: 85px;
+  padding-left: 85px;
+}
+
+.legend-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 25%;
+  background-size: cover;
+}
+
+.l-img {
+  right: 0;
+  background-image: url(https://res.cloudinary.com/dnypb9pck/image/upload/v1538773418/images/legend.jpg);
+}
+
+.l-title {
+  position: absolute;
+  bottom: 0;
+  font-family: 'filson-normal';
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  bottom: 50px;
+  left: 20px;
+}
+
+.l-title-t {
+  position: absolute;
+  bottom: 0;
+  font-family: 'filson-normal';
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  bottom: 25px;
+  left: 20px;
+}
+
+.legend-btn {
+  margin-top: 35px;
+  border-radius: 0px !important;
+  font-family: 'filson-normal';
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 19px !important;
+  background-color: #8100f9 !important;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.legend-play {
+  margin-top: 35px;
+  border-radius: 80px !important;
+  font-size: 12px;
+  width: 43px;
+  height: 43px;
+  padding: 19px !important;
+  background-color: #8100f9 !important;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.legend-play:after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 3px;
+  left: 15px;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 9.5px 0 9.5px 17px;
+  border-color: transparent transparent transparent rgba(255, 255, 255, 1);
+}
+
+.music-player--progress {
+  position: relative;
+  overflow: auto;
+  padding: 5px;
+  bottom: 20px;
+  left: 50px;
+}
+
+.progress--progress-bar {
+  position: absolute;
+  width: 80%;
+  top: -1px;
+  left: 0;
+  -webkit-appearance: none;
+  height: 3px;
+  z-index: 2;
+}
+
+.progress--time {
+  color: #a9a9a9;
+  font-size: 10px;
+  float: left;
+}
+
+.progress--time__end {
+  float: right;
+  margin-right: 42px;
+}
+
+progress::-webkit-progress-value {
+  background: #8100f9;
+}
+
+progress::-moz-progress-bar {
+  background: #8100f9;
+}
+
+progress {
+  color: #8100f9;
+}
+
+h4 span {
+  display: block;
+}
+
+h4 > span {
+  overflow: hidden;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+h4 > span:nth-child(2) {
+  transition-delay: 0.05s;
+}
+
+h4 > span:nth-child(3) {
+  transition-delay: 0.1s;
+}
+
+h4 > span > span {
+  position: relative;
+  transform: translateY(100%);
+  transition: inherit;
+}
+
+h4.slide-in > span > span {
+  transform: translateY(0);
+}
+
+.revealing-text {
+  position: relative;
+  display: inline-block;
+}
+
+.revealing-text > span:nth-child(1) {
+  color: #909090;
+}
+
+.revealing-text > span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #535353;
+  transition: 0.6s;
+  width: 100%;
+  transform: translatex(-100%);
+  overflow: hidden;
+}
+
+.revealing-text > span:nth-child(2) > span {
+  transform: translatex(100%);
+  display: inline-block;
+  transition: inherit;
+}
+
+.revealing-text.revealed span:nth-child(2) {
+  transform: translateX(0);
+}
+
+.revealing-text.revealed span:nth-child(2) > span {
+  transform: translateX(0);
+}
